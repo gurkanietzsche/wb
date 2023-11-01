@@ -854,6 +854,19 @@ body{
     transition: all .4s ease;
     background: #c70039;
 }
+
+.about-social-media-links{
+    height: auto;
+    position: relative;
+    z-index: 2;
+    padding: 60px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .portfolio-header{
     height: auto;
     width: 100%;
