@@ -393,7 +393,7 @@ body{
 }
 .social-media-links{
     height: 100vh;
-    position: absolute;
+    position: relative;
     z-index: 2;
     padding: 60px;
     width: auto;
