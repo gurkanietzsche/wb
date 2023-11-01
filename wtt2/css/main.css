@@ -862,7 +862,7 @@ body{
     padding: 60px;
     width: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
