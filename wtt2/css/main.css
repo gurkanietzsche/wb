@@ -394,7 +394,7 @@ margin-top: 30px;
 }
 .social-media-links{
     height: 100vh;
-    position: relative;
+    position: absolute;
     z-index: 2;
     padding: 60px;
     width: auto;
