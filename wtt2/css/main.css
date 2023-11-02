@@ -238,6 +238,7 @@ body{
 }
 .header-content{
     height: 100vh;
+margin-top: 30px;
     width: 100%;
     padding: 5%;
     float: left;
