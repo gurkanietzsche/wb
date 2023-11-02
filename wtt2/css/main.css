@@ -40,7 +40,7 @@ input[type=number] {
   -moz-appearance: textfield;
 }
   html{
-    background: #384358;
+    background: #1D1A39;
     
   }
   #loader{
@@ -62,10 +62,10 @@ body{
     height: 100%;
     overflow-x: hidden;
     width: 100%;
-    background: #384358;
+    background: #1D1A39;
 }
 #header{
-    background:#384358;
+    background:#1D1A39;
     height: 100vh;
     width: 100%;;
     overflow: auto;
