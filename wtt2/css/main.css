@@ -1475,9 +1475,9 @@ For devices with smaller width like mobile phone
         flex-direction: column;
         color: whitesmoke;
         font-family: raleway;
-        font-weight: 270;
+        font-weight: 500;
         letter-spacing: 2px;
-        font-size: 30px;
+        font-size: 40px;
     }
     .contact{
         display: none;
@@ -1933,9 +1933,9 @@ for tabs and large phones
         flex-direction: column;
         color: whitesmoke;
         font-family: raleway;
-        font-weight: 500;
+        font-weight: 300;
         letter-spacing: 2px;
-        font-size: 40px;
+        font-size: 30px;
     }
     .header-image{
         float: right;
