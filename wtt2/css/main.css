@@ -1475,9 +1475,9 @@ For devices with smaller width like mobile phone
         flex-direction: column;
         color: whitesmoke;
         font-family: raleway;
-        font-weight: 500;
+        font-weight: 270;
         letter-spacing: 2px;
-        font-size: 40px;
+        font-size: 30px;
     }
     .contact{
         display: none;
