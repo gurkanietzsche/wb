@@ -1542,7 +1542,7 @@ padding-left: 0px;
         flex-direction: column;
         justify-content: center;
         gap: 1rem;
-        height: 100%;
+        min-height: 100vh;
 overflow: auto;
 
 
