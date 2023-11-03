@@ -1465,7 +1465,7 @@ For devices with smaller width like mobile phone
 
 
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 770px){
     .header-content{
         height: 90vh;
         width: 100%;
@@ -2045,7 +2045,7 @@ for tabs and large phones
 
 
 
-@media all and (max-width: 1025px) and (min-width: 551px){
+@media all and (max-width: 1025px) and (min-width: 771px){
     body{
         user-select: none;
         height: 100%;
