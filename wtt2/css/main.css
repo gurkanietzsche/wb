@@ -1497,12 +1497,16 @@ For devices with smaller width like mobile phone
         align-items: center;
         justify-content: center;
     }
-    .header-content-box{
-        padding-left: 0px;
+    
+
+.header-content-box{
         z-index: 2;
         text-align: center;
-    }
-
+        height: auto;
+        padding-right: 0px;
+padding-left: 0px;
+        padding-top:60px;
+        width: 100%;
     
     }
     #contact{
