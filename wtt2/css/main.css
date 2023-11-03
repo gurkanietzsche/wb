@@ -1502,6 +1502,9 @@ For devices with smaller width like mobile phone
         z-index: 2;
         text-align: center;
     }
+
+    
+    }
     #contact{
         display: none;
     }
@@ -1649,15 +1652,7 @@ For devices with smaller width like mobile phone
         50%{ transform : translateX(0%) }
         100%{ transform : translateX(100%) }
     }
-    .header-content-box{
-        z-index: 2;
-        text-align: center;
-        height: auto;
-        padding-right: 0px;
-        padding-top:60px;
-        width: 100%;
     
-    }
 
     #about-content{
         display: flex;
