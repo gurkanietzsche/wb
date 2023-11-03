@@ -304,7 +304,7 @@ body{
     background: var(--url);
     background-size: cover;
     background-position: center;
-    opacity: 0.6;
+    opacity: 0;
     filter: blur(4rem) saturate(0.8);
     box-shadow: 0 -1.5rem 2rem -0.5rem rgba(0, 0, 0, 0.7);
     transform: rotateX(var(--rotateX)) rotateY(var(--rotateY)) translate3d(0, 2rem, -2rem);
@@ -1544,7 +1544,7 @@ For devices with smaller width like mobile phone
         background: var(--url);
         background-size: cover;
         background-position: center;
-        opacity: 0.6;
+        opacity: 0;
         filter: blur(4rem) saturate(0.8);
         box-shadow: 0 -1.5rem 2rem -0.5rem rgba(0, 0, 0, 0.7);
         transform: rotateX(var(--rotateX)) rotateY(var(--rotateY)) translate3d(0, 2rem, -2rem);
