@@ -1485,6 +1485,7 @@ For devices with smaller width like mobile phone
         font-weight: 300;
         letter-spacing: 1px;
         font-size: 32px;
+padding-top: 40px;
     }
     
     .contact{
@@ -1505,7 +1506,6 @@ For devices with smaller width like mobile phone
     }
     .header-content-box{
         padding-left: 0px;
-padding-top: 90px;
         z-index: 2;
         text-align: center;
     }
