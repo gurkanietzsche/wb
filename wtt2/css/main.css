@@ -1466,8 +1466,14 @@ For devices with smaller width like mobile phone
 
 
 @media only screen and (max-width: 770px){
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
     .header-content{
-        min-height: 100vh;
+        height: 100vh;
         width: 100%;
         float: left;
         display: flex;
@@ -1499,7 +1505,7 @@ For devices with smaller width like mobile phone
     }
     .header-content-box{
         padding-left: 0px;
-padding-top: 40px;
+padding-top: 90px;
         z-index: 2;
         text-align: center;
     }
