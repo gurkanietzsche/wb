@@ -1466,12 +1466,12 @@ For devices with smaller width like mobile phone
 
 
 
-@media only screen and (max-width: 770p){
+@media screen and (max-width: 770p){
 
 body{
 
 overflow-y: auto;
-font-size: 14;
+font-size: 14px;
 }
 
     .header-content{
@@ -1510,7 +1510,7 @@ font-size: 14;
 .header-content-box{
         z-index: 2;
         text-align: center;
-        height: auto;
+       
 padding: 10px;
         padding-right: 0px;
 padding-left: 0px;
@@ -1518,9 +1518,7 @@ padding-left: 0px;
         width: 100%;
     
     }
-    #contact{
-        display: none;
-    }
+ 
 
     .header-content .firstline{
         z-index: 2;
