@@ -1466,58 +1466,15 @@ For devices with smaller width like mobile phone
 
 
 
-@media screen and (max-width: 770p){
+@media screen and (max-width: 768p){
 
-body{
-
-overflow-y: auto;
-font-size: 14px;
+    #header{
+height: 80vh;
 }
 
-    .header-content{
-        min-height: 100vh;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        color: whitesmoke;
-        font-family: raleway;
-        font-weight: 300;
-        letter-spacing: 1px;
-        font-size: 24px;
-    }
-    
-    .contact{
-        display: none;
-    }
-   
-    .social-media-links{
-        width: 100%;
-        left: 0;
-        bottom: 0;
-        position: absolute;
-        padding: 10px;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    
-
-.header-content-box{
-        z-index: 2;
-        text-align: center;
-       
-padding: 10px;
-        padding-right: 0px;
-padding-left: 0px;
-        padding-top:60px;
-        width: 100%;
-    
-    }
- 
+.header-content{
+font-size: 40px;
+}
 
     .header-content .firstline{
         z-index: 2;
@@ -1533,12 +1490,10 @@ padding-left: 0px;
         color: rgb(255, 255, 255,.8);
     }
     .centered {
-        display: flex;
-        align-items: center;
         flex-direction: column;
-        justify-content: center;
-        gap: 1rem;
-        min-height: 100vh;
+    padding-top: 20px;
+padding-bottom: 20px;
+
   
 overflow-y: auto;
 
