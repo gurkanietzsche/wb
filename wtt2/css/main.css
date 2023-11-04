@@ -1470,7 +1470,6 @@ For devices with smaller width like mobile phone
 
 body{
 
-overflow: auto;
 overflow-y: auto;
 font-size: 14;
 }
@@ -1543,7 +1542,7 @@ padding-left: 0px;
         justify-content: center;
         gap: 1rem;
         min-height: 100vh;
-   overflow: auto;
+  
 overflow-y: auto;
 
 
