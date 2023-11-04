@@ -1477,7 +1477,6 @@ font-size: 14px;
     .header-content{
         min-height: 100vh;
         width: 100%;
-        float: left;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1524,7 +1523,7 @@ padding-left: 0px;
         z-index: 2;
         font-weight:450;
         font-family: poppins;
-        font-size: 52px;
+        font-size: 32px;
     }
     .header-content .secondline{
         z-index: 2;
@@ -1549,8 +1548,8 @@ overflow-y: auto;
       
       .card {
         position: relative;
-        height: 14rem;
-        width: 9rem;
+        height: 10rem;
+        width: 8rem;
         aspect-ratio: 5/7;
         color: whitesmoke;
         perspective: 50rem;
