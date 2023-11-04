@@ -59,10 +59,10 @@ overflow: auto;
   }
 body{
     user-select: none;
-    height: 100%;
     overflow-x: hidden;
     width: 100%;
     background: #1D1A39;
+overflow: auto;
 }
 #header{
     background:#1D1A39;
@@ -1466,17 +1466,7 @@ For devices with smaller width like mobile phone
 
 
 
-@media only screen and (max-width: 770px){
-
-html{
-    background: #1D1A39;
-max-height: auto;
-overflow: auto;
-overflow-y: auto;
-height: 100%;
-width: 100%;
-    
-  }
+@media only screen and (max-width: 770p){
 
 body{
 
