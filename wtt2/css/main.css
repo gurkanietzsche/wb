@@ -1471,7 +1471,7 @@ For devices with smaller width like mobile phone
 body{
 
 height; 100%;
-widht: 100;
+widht: 100%;
 overflow: auto;
 overflow-y: auto;
 }
