@@ -58,10 +58,7 @@ input[type=number] {
   }
 body{
     user-select: none;
-    height: 100%;
-    overflow-x: hidden;
-    width: 100%;
-    background: #1D1A39;
+  background: #1D1A39;
 }
 #header{
     background:#1D1A39;
