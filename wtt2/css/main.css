@@ -63,8 +63,7 @@ body{
 #header{
     background:#1D1A39;
     height: 100vh;
-    width: 100%;;
-    overflow: hidden;
+    width: 100%;
     animation: scale 1.5s ease;
     position:relative;
     display: block;
