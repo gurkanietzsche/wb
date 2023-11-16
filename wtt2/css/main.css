@@ -1500,6 +1500,7 @@ For devices with smaller width like mobile phone
         bottom: 0;
         position: absolute;
         padding: 10px;
+     padding-top: 30px;
         height: auto;
         display: flex;
         flex-direction: row;
