@@ -1467,7 +1467,7 @@ For devices with smaller width like mobile phone
    
     #header{
         background:#1D1A39;
-        height: 220vh;
+        height: 230vh;
         width: auto;
         animation: scale 1.5s ease;
         position:relative;
