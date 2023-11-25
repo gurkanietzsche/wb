@@ -2131,7 +2131,7 @@ img {
                 --hover: 1;
                 transition: box-shadow 0.6s cubic-bezier(0.65, 0, 0.35, 1);
               }
-            }
+            
               
             
             .bcontainer{
@@ -2356,7 +2356,7 @@ img {
             .hire-me-section{
                 display: none;
             }
-           
+   }      
 
        
 /*
