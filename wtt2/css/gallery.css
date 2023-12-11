@@ -1,0 +1,257 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 4px;
+    color:#c70039;
+    transition: all .4s ease;
+}
+::-webkit-scrollbar-thumb {
+    background: #c70039; 
+    border-radius: 4px;
+    width: 4px;
+    transition: all .4s ease;
+  }
+  ::-webkit-scrollbar-track {
+    background: #101010; 
+    border-radius: 4px;
+    width: 4px;
+  }
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+  html{
+    background: #3c293a;
+    
+  }
+body{
+    user-select: none;
+  background: #3c293a;
+}
+main {
+    overflow: hidden;
+    height: 80vh;
+
+  }
+  
+  a,
+  button {
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+  }
+  
+  .section {
+    margin: 0 auto;
+    padding-top: 0;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    max-width: 100%;
+    height: 700px;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  
+  .swiper-wrapper{
+    height: 700px;
+
+  }
+  .swiper-slide {
+    width: 800px;
+  }
+  
+  .swiper-button-next::after, .swiper-button-prev::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 1rem;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.75;
+    border-radius: 50%;
+    color: var(--white-100);
+    background: var(--black-300);
+  }
+  .homebutton{
+   height: 150px;
+   display: block;
+   position: relative;
+   align-items: center;
+   justify-content: center;
+   text-align: center; 
+   font-family: sans-serif;
+   font-size: 48px;
+   line-height: 150px;
+   cursor: pointer;
+  }
+  .homebuttonblog{
+    height: 150px;
+    display: block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    font-family: sans-serif;
+    font-size: 48px;
+    line-height: 150px;
+    cursor: pointer;
+   }
+   .topbar{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+#button {
+  --hover: 0;
+  --button-bg: hsla(
+      calc(336 - 7 * var(--hover)),
+      calc(77% - 8% * var(--hover)),
+      calc(30% + 7% * var(--hover)),
+      0.9
+  );
+  --button-border: hsl(
+      calc(335 - 11 * var(--hover)),
+      calc(77% - 1% * var(--hover)),
+      39%
+  );
+  --button-label: hsl(272, 90%, 92%);
+  --button-shadow-1: hsla(335, 77%, 38%, 0.35);
+  --button-shadow-2: hsla(270.91deg, 19.89%, 18.23%, 0.55);
+  cursor: pointer;
+  position: relative;
+  padding: 1rem 2.5rem;
+  background-color: var(--button-bg);
+  border: 0.2rem solid var(--button-border);
+  border-radius: 3rem;
+  box-shadow: 0 0 0.2em 0px var(--button-shadow-1), inset 0 0 0.3em 0 var(--button-shadow-2), inset 0 0 0.2em 0 var(--button-shadow-1), 0 0 calc(var(--hover) * 6em) 0 var(--button-border);
+  color: var(--button-label);
+  font: 500 clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem)/1 "Inter", sans-serif;
+  letter-spacing: 0.05rem;
+  transition: box-shadow 0.25s linear;
+}
+#button .glow {
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  inset: 0;
+  border: inherit;
+  border-radius: 3em;
+  filter: blur(2px);
+}
+#button:hover {
+  --hover: 1;
+  transition: box-shadow 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+}
+/*
+
+For devices with smaller width like mobile phone
+
+
+*/
+
+
+
+@media only screen and (max-width: 770px){
+
+
+
+
+  .topbar{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 0.1rem;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+    padding-bottom: 5%;
+  }
+.homebuttonblog{
+    height: 5%;
+    width: 15%;
+    display: block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    font-family: sans-serif;
+    font-size: 2px;
+    line-height: 5%;
+    padding-top: 4%;
+    cursor: pointer;
+   }
+   #button {
+    --hover: 0;
+    --button-bg: hsla(
+        calc(336 - 7 * var(--hover)),
+        calc(77% - 8% * var(--hover)),
+        calc(30% + 7% * var(--hover)),
+        0.9
+    );
+    --button-border: hsl(
+        calc(335 - 11 * var(--hover)),
+        calc(77% - 1% * var(--hover)),
+        39%
+    );
+    --button-label: hsl(272, 90%, 92%);
+    --button-shadow-1: hsla(335, 77%, 38%, 0.35);
+    --button-shadow-2: hsla(270.91deg, 19.89%, 18.23%, 0.55);
+    cursor: pointer;
+    position: relative;
+    padding: 0.4rem 0.4rem;
+    background-color: var(--button-bg);
+    border: 0.2rem solid var(--button-border);
+    border-radius: 2rem;
+    box-shadow: 0 0 0.2em 0px var(--button-shadow-1), inset 0 0 0.3em 0 var(--button-shadow-2), inset 0 0 0.2em 0 var(--button-shadow-1), 0 0 calc(var(--hover) * 6em) 0 var(--button-border);
+    color: var(--button-label);
+    font: 20 clamp(0.5rem, 0.20vw + 0.5rem, 0.20vw)/1 "Inter", sans-serif;
+    letter-spacing: 0.05rem;
+    transition: box-shadow 0.25s linear;
+  }
+  #button .glow {
+    pointer-events: none;
+    display: block;
+    position: absolute;
+    inset: 0;
+    border: inherit;
+    border-radius: 1em;
+    filter: blur(2px);
+  }
+  #button:hover {
+    --hover: 1;
+    transition: box-shadow 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+  }
+}
